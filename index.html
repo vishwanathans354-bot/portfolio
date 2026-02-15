@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            vishwa portfolio
-        </title>
+<head>
+  <title>Vishwa Portfolio</title>
 
-    </head>
-    <body>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
-    </body>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- RIGHT SIDE NAVIGATION -->
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#articles">Articles</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
+  <!-- FIRST PAGE -->
+  <section class="page1">
 
+    <!-- Profile Photo -->
+    <img src="my.png" class="profile-pic" alt="My Photo">
 
+    <h1 class="name">VISHWANATHAN S</h1>
+    <h3 class="bme">BIO MEDICAL ENGINEERING</h3>
+    <h2 class="welcome">WELCOME TO MY PORTFOLIO</h2>
+
+    <!-- About box -->
+    <div class="about-box">
+      <p class="about">
+       I’m a Biomedical Engineering student with a strong interest in AI in healthcare, medical devices, and clinical data analysis. I work on projects like heart disease prediction using ECG and clinical data, and I enjoy building practical solutions using Python, machine learning, Flask, Git, and VS Code.
+
+I have a good foundation in biomedical instruments, ECG, medical equipment calibration, and healthcare technology, and I’m especially interested in medical signal processing and AI-based diagnostic systems.
+
+My goal is to build smart, reliable healthcare technologies that solve real-world medical problems and improve patient care.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="page page2" id="about">
+    <h2>About Me</h2>
+    <p class="abt">
+      I am Vishwanathan S, a Biomedical Engineering student and beginner web developer.
+      I like building simple and clean websites.
+    </p>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="page page3" id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>HTML & CSS Basics</li>
+      <li>JavaScript Beginner</li>
+      <li>Biomedical Equipment Training</li>
+    </ul>
+  </section>
+
+  <!-- ARTICLES -->
+  <section class="page page4" id="articles">
+    <h2>Articles</h2>
+    <p>I will publish my technical articles here soon.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="page page5" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>Mini JavaScript Projects</li>
+      <li>Health ML Project</li>
+    </ul>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="page page6" id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Basic Website Design</li>
+      <li>Landing Pages</li>
+      <li>Student Project Help</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="page page7" id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourmail@example.com</p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+  </section>
+
+  <!-- JavaScript INSIDE HTML -->
+  <script>
+    // Auto scroll to About after 3 seconds (optional)
+    setTimeout(function () {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    }, 3000);
+  </script>
+
+</body>
 </html>

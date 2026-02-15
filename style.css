@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  background-image: url("img6.jpeg");  /* background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Right side navbar */
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0,0,0,0.6);
+  padding: 10px 15px;
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Profile photo - unique shape */
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  /* Two corners rounded, two sharp */
+  border-radius: 25px 0 25px 0;
+
+  border: 3px solid white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* First page */
+.page1 {
+  min-height: 100vh;
+  padding: 80px 20px;
+}
+
+.name {
+  color: rgb(78, 123, 129);
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.bme {
+  color: rgb(80, 114, 106);
+  font-size: 22px;
+}
+
+.welcome {
+  color: rgb(83, 131, 131);
+  margin-top: 20px;
+}
+
+/* About box */
+.about-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 85%;
+  margin: 30px 0 0 30px;   /* left side */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about
+
+.about {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+/* Other pages */
+.page {
+  min-height: 100vh;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+
+/* First page background */
+.page1 {
+  min-height: 100vh;
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* About page */
+.page2 {
+  min-height: 100vh;
+  background-image: url("bac.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Projects page */
+.page5 {
+  min-height: 100vh;
+  background-image: url("img3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Contact page */
+.page7 {
+  min-height: 100vh;
+  background-image: url("img4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.abt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 20px;
+    width: 45%;
+    text-align: right;
+
+
+
+}
